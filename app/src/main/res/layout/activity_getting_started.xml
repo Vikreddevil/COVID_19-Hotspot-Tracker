@@ -1,0 +1,93 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:background="@color/colorPrimary"
+    android:layout_weight="2.9"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+<ImageView
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/covid_tracker_logo"
+    android:layout_width="130dp"
+    android:layout_height="130dp"/>
+    <TextView
+        android:text="WELCOME"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:alpha="0.75"
+        android:layout_above="@id/lets_get_started_desc_text_view"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lets_get_started_desc_text_view"
+        android:text="We are here to help you be safe during this Pandemic which has hit the World. We will together face this situation and keep ourselves and others safe."
+        android:textColor="#FFFFFF"
+        android:layout_above="@id/lets_get_started_text_view"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:justificationMode="inter_word"
+        android:alpha="0.6"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lets_get_started_text_view"
+        android:text="Lets Get Started"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="20dp"
+        android:paddingEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1.1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:text="Select City"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/city_spinner"
+            android:gravity="center"
+            android:popupBackground="@color/colorPrimaryDark"
+            style="@style/spinner_style"
+            android:layout_width="130dp"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textStyle="bold"
+            android:text="Next"
+            android:id="@+id/next_text_view"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

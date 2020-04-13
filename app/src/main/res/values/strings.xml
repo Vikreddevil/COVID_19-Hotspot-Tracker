@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">COVID 19 Hotspot Tracker</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="green_indicator_desc">Green Zone indicates that there have been no cases in this area. But that doesn\'t mean that you become complacent. Follow the basic guidelines like wearing a mask and not touching your face unnecessarily. Follow the social distancing protocol. Stay safe.</string>
+    <string name="green_zone">Green Zone</string>
+    <string name="red_zone">Red Zone</string>
+    <string name="indicator_red_desc">This is a high risk area which has had a lot of COVID 19 cases recently. You must avoid this area and stay as much far away from it. If you reside in this area you are requested to stay at home and do not leave until absolutely necessary.</string>
+    <string name="orange_zone">Orange Zone</string>
+    <string name="indicator_orange_text">Orange zone indicates that there have been few COVID 19 cases in this area. This means there is a chance of you getting infected in this area. We suggest you to take all the precautions you can when you visit this area like wearing mask all the time, avoid touching your face and following social distancing protocol. If you can please avoid this place.</string>
+    <string name="about_us">About us</string>
+    <string name="view_map">View Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
